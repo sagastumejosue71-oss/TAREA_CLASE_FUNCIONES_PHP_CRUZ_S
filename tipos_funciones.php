@@ -82,5 +82,9 @@ $array = array("Manzana", "Banana", "Naranja");
 $ultimoElemento = array_pop($array);
 echo $ultimoElemento; // Imprime "Naranja"
 
+// 19. array_shift() Quita el primer elemento del array y lo retorna.
+$array = array("Manzana", "Banana", "Naranja");
+$primerElemento = array_shift($array);
+echo $primerElemento; // Imprime "Manzana"
 
 
