@@ -120,3 +120,8 @@ print_r($valores);
 $array = array(5, 2, 9, 1, 5);
 sort($array);
 print_r($array);
+
+// 26. rsort() Ordena un array de mayor a menor.
+$array = array(5, 2, 9, 1, 5);
+rsort($array);
+print_r($array);
