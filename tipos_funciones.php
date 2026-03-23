@@ -129,3 +129,7 @@ print_r($array);
 // 27. abs() Devuelve el valor absoluto de un número.
 $numero = -5;
 echo abs($numero); // Imprime el numero 5
+
+// 28. ceil() Redondea hacia arriba al entero mas cercano.
+$numero1= 85.70;
+echo ceil($numero1); // Imprime el numero 86
