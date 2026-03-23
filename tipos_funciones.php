@@ -14,3 +14,7 @@ $variable = "Curso de Informatica 2026";
 // 4. print_r() muestra información legible sobre una variable, especialmente útil para arrays y objetos.
 $array = array("Manzana", "Banana", "Naranja");
 print_r($array);
+
+// 5. strlen() Retorna la longitud (número de caracteres) de una cadena.
+$cadena="Subteniente de Artillería";
+echo strlen($cadena);
