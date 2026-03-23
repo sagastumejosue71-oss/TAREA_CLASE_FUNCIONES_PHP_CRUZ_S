@@ -135,5 +135,9 @@ $numero1= 85.70;
 echo ceil($numero1); // Imprime el numero 86
 
 // 29. floor() Redondea hacia abajo al entero mas cercano.
-$numero2 = 85.70;   
+$numero2 = 85.50;   
 echo floor($numero2); // Imprime el numero 85
+
+// 30. round() Redondea un número al entero más cercano o a un número de decimales especificado.
+$numero3 = 85.75;
+echo round($numero3); // Imprime el numero 86
