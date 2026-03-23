@@ -76,3 +76,6 @@ echo implode(", ", array_merge($array1, $array2));
 $array = array("Manzana", "Banana");
 array_push($array, "Naranja", "Pera");
 print_r($array);
+
+
+
