@@ -1,6 +1,6 @@
 <?php
 
-//50 Funciones principales de PHP:
+//50 Funciones nativas principales de PHP:
 
 //1. echo() Muestra una o mas cadenas de texto en la pantalla.
 echo "Hola Mundo";
@@ -54,3 +54,7 @@ print_r($array);
 $array = array("Manzana", "Banana", "Naranja"); 
 $cadena = implode(". ", $array);
 echo $cadena;
+
+//14. count() cuenta cuantos elementos hay en un array o cuántas propiedades tiene un objeto.
+$array = array("Manzana", "Banana", "Naranja");
+echo count($array);
