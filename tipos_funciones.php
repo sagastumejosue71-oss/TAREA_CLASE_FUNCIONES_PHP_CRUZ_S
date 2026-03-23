@@ -71,3 +71,8 @@ if (is_array($variable)) {
 $array1 = array("Manzana", "Banana");
 $array2 = array("Naranja", "Pera");
 echo implode(", ", array_merge($array1, $array2));
+
+// 17. array_push() Inserta uno mas elmentos al final del array.
+$array = array("Manzana", "Banana");
+array_push($array, "Naranja", "Pera");
+print_r($array);
