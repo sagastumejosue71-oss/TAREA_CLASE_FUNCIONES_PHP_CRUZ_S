@@ -115,3 +115,8 @@ $valores = array_filter($array, function($x) {
     return $x % 2 == 0; // Retorna solo los números pares
 });
 print_r($valores);
+
+// 25. sort() Ordena un array de menor a mayor.
+$array = array(5, 2, 9, 1, 5);
+sort($array);
+print_r($array);
