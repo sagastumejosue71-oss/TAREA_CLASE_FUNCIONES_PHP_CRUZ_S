@@ -66,3 +66,8 @@ if (is_array($variable)) {
 } else {
     echo "No es un array";
 }
+
+// 16. array_merge() Combina dos o más arrays en uno solo.
+$array1 = array("Manzana", "Banana");
+$array2 = array("Naranja", "Pera");
+echo implode(", ", array_merge($array1, $array2));
