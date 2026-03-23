@@ -44,3 +44,8 @@ echo trim($cadena);
 //11. strtolower() Convierte una cadena a minúsculas.
 $cadena = "SUBTENIENTE DE ARTILLERÍA MIGUELANGELO JOSUÉ CRUZ SAGASTUME";
 echo strtolower($cadena);
+
+// 12. explode() Divide una cadena en un array utilizando un delimitador específico.
+$cadena = "Manzana, Banana, Naranja";
+$array = explode(", ", $cadena);
+print_r($array);
