@@ -34,9 +34,13 @@ $subcadena = substr($cadena, 0, 13);
 echo $subcadena;
 
 //9. strtoupper() Convierte una cadena a mayúsculas.
-$cadena = "Subteniente de Artillería Miguguelangel Josué Cruz Sagastume";
-echo strtoupper($subcadena);
+$cadena = "Subteniente de Artillería Miguelangel Josué Cruz Sagastume";
+echo strtoupper($cadena);
 
 //10. trim() Elimina espacios en blanco u otros caracteres especificados al inicio y al final de una cadena.
 $cadena = "   Hola Mundo   ";
 echo trim($cadena);
+
+//11. strtolower() Convierte una cadena a minúsculas.
+$cadena = "SUBTENIENTE DE ARTILLERÍA MIGUELANGELO JOSUÉ CRUZ SAGASTUME";
+echo strtolower($cadena);
