@@ -58,3 +58,11 @@ echo $cadena;
 //14. count() cuenta cuantos elementos hay en un array o cuántas propiedades tiene un objeto.
 $array = array("Manzana", "Banana", "Naranja");
 echo count($array);
+
+// 15. is_array() Verifica si una variable es un array.
+$variable = array("Manzana", "Banana", "Naranja");
+if (is_array($variable)) {
+    echo "Es un array";
+} else {
+    echo "No es un array";
+}
