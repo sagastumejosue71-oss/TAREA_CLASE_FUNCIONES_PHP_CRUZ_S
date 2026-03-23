@@ -18,3 +18,8 @@ print_r($array);
 // 5. strlen() Retorna la longitud (número de caracteres) de una cadena.
 $cadena="Subteniente de Artillería";
 echo strlen($cadena);
+
+// 6. str_replace() Reemplaza cualquier palabra que querramos por otra que deseemos.
+$texto = "El perro es mi amigo";
+$texto = str_replace("perro", "gato", $texto);
+echo $texto;
