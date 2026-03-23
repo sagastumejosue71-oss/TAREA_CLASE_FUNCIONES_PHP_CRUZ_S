@@ -23,3 +23,7 @@ echo strlen($cadena);
 $texto = "El perro es mi amigo";
 $texto = str_replace("perro", "gato", $texto);
 echo $texto;
+
+// 7. strpos() Encuentra la posición de la primera aparición de una subcadena en una cadena.
+$frase = "El cielo es azul";    
+echo strpos($frase, "azul");
