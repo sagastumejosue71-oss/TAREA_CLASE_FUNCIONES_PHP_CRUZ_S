@@ -77,5 +77,10 @@ $array = array("Manzana", "Banana");
 array_push($array, "Naranja", "Pera");
 print_r($array);
 
+// 18. array_pop() Elimina el último elemento de un array y lo retorna.
+$array = array("Manzana", "Banana", "Naranja");
+$ultimoElemento = array_pop($array);
+echo $ultimoElemento; // Imprime "Naranja"
+
 
 
