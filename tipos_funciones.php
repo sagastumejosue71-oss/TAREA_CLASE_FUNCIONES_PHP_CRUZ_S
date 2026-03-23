@@ -128,4 +128,4 @@ print_r($array);
 
 // 27. abs() Devuelve el valor absoluto de un número.
 $numero = -5;
-echo abs($numero); // Imprime 5
+echo abs($numero); // Imprime el numero 5
