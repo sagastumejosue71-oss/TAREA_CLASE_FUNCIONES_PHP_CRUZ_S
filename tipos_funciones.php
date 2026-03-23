@@ -26,4 +26,9 @@ echo $texto;
 
 // 7. strpos() Encuentra la posición de la primera aparición de una subcadena en una cadena.
 $frase = "El cielo es azul";    
-echo strpos($frase, "azul");
+echo strpos($frase, "cielo");
+
+// 8. substr() Retorna una parte de una cadena, indicando inicio y longitud.
+$cadena = "Programación en PHP";
+$subcadena = substr($cadena, 0, 13);
+echo $subcadena;
