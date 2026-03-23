@@ -108,3 +108,10 @@ $resultado = array_map(function($x) {
     return $x * 2;
 }, $array);
 print_r($resultado);
+
+// 24. array_filter() Filtrsa elemntos de un array usando una funcion de retorno.
+$array = array(1, 2, 3, 4, 5);
+$valores = array_filter($array, function($x) {
+    return $x % 2 == 0; // Retorna solo los números pares
+});
+print_r($valores);
