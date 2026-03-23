@@ -101,3 +101,10 @@ print_r($valores);
 $array = array("pelota", "coche", "casa");
 $valores = array_values($valores);
 print_r($valores);
+
+//23. array_map() Aplica una funcion a cada elemento de un array y devuelve un nuevo array con los resultados.
+$array = array(1, 2, 3, 4, 5);
+$resultado = array_map(function($x) {
+    return $x * 2;
+}, $array);
+print_r($resultado);
