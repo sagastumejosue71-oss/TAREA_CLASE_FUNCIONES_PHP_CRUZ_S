@@ -49,3 +49,8 @@ echo strtolower($cadena);
 $cadena = "Manzana, Banana, Naranja";
 $array = explode(", ", $cadena);
 print_r($array);
+
+// 13. implode() Une los elementos de un array en una cadena utilizando un delimitador específico.
+$array = array("Manzana", "Banana", "Naranja"); 
+$cadena = implode(". ", $array);
+echo $cadena;
