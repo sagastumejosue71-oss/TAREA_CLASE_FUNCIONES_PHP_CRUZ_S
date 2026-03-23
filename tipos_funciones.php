@@ -92,4 +92,11 @@ $array = array("", "",  "Manzana" => 1, "Banana" => 2, "Naranja" => 3);
 $llaves = array_keys($array);
 print_r($llaves);
 
+//21. array_values() Devuelve todos los valores de un array.
+$array = array("",  "", "Manzana" => 1, "Banana" => 2, "Naranja" => 3);
+$valores = array_values($array);
+print_r($valores);
+
+
+
 
