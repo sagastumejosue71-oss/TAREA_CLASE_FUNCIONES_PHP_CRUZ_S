@@ -11,3 +11,6 @@ print "Hola Como estas?";
 //3. var_dump() muestra información detallada sobre una variable, incluyendo su tipo y valor.
 $variable = "Curso de Informatica 2026";
 
+// 4. print_r() muestra información legible sobre una variable, especialmente útil para arrays y objetos.
+$array = array("Manzana", "Banana", "Naranja");
+print_r($array);
