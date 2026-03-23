@@ -87,4 +87,9 @@ $array = array("Manzana", "Banana", "Naranja");
 $primerElemento = array_shift($array);
 echo $primerElemento; // Imprime "Manzana"
 
+// 20. array_keys() Devuelve todas las llaves (nombres de los indices) de un array.
+$array = array("", "",  "Manzana" => 1, "Banana" => 2, "Naranja" => 3);
+$llaves = array_keys($array);
+print_r($llaves);
+
 
