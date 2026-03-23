@@ -125,3 +125,7 @@ print_r($array);
 $array = array(5, 2, 9, 1, 5);
 rsort($array);
 print_r($array);
+
+// 27. abs() Devuelve el valor absoluto de un número.
+$numero = -5;
+echo abs($numero); // Imprime 5
