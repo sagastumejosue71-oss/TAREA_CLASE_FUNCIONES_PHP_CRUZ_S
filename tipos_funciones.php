@@ -32,3 +32,7 @@ echo strpos($frase, "cielo");
 $cadena = "Programación en PHP";
 $subcadena = substr($cadena, 0, 13);
 echo $subcadena;
+
+//9. strtoupper() Convierte una cadena a mayúsculas.
+$cadena = "Subteniente de Artillería Miguguelangel Josué Cruz Sagastume";
+echo strtoupper($subcadena);
