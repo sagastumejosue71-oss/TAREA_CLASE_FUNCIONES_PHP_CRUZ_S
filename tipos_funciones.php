@@ -133,3 +133,7 @@ echo abs($numero); // Imprime el numero 5
 // 28. ceil() Redondea hacia arriba al entero mas cercano.
 $numero1= 85.70;
 echo ceil($numero1); // Imprime el numero 86
+
+// 29. floor() Redondea hacia abajo al entero mas cercano.
+$numero2 = 85.70;   
+echo floor($numero2); // Imprime el numero 85
