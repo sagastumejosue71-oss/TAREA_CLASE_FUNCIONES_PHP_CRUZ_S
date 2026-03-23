@@ -97,6 +97,7 @@ $array = array("",  "", "Manzana" => 1, "Banana" => 2, "Naranja" => 3);
 $valores = array_values($array);
 print_r($valores);
 
-
-
-
+//22. in_array() Verifica si un valor existe en un array.
+$array = array("pelota", "coche", "casa");
+$valores = array_values($valores);
+print_r($valores);
